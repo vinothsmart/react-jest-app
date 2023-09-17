@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <div data-testid="user-name">VinothKanna</div>
     </div>
   );
 }
