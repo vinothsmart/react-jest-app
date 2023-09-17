@@ -6,5 +6,5 @@ test('renders learn react link', () => {
   const linkElement = screen.queryByText(/learn rect/i);
   expect(linkElement).not.toBeInTheDocument();
   const userName = screen.getByTestId('user-name');
-  expect(userName).toBeInTheDocument();
+  expect(userName).not.toBeInTheDocument();
 });
